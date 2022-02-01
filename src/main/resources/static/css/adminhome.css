@@ -1,0 +1,55 @@
+@charset "ISO-8859-1";
+
+body {
+	margin: 0;
+	background: url("https://wallpaperaccess.com/full/16676.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.main {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.inner {
+	width: 50vw;
+	height: 50vh;
+	border: 1px solid black;
+	background: rgba(255, 255, 255, 0.5);
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+a {
+	width: 200px;
+	height: 60px;
+	background: rgb(97, 194, 78);
+	border-radius: 10px;
+	color: white;
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+h6:first-child {
+	position: absolute;
+	width: 200px;
+	height: 60px;
+	background: rgb(97, 194, 78);
+	border-radius: 10px;
+	color: white;
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	top: 0;
+	right: 30px;
+}
